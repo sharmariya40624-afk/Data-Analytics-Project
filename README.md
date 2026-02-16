@@ -1,87 +1,75 @@
 #Heart Disease Prediction
 #Project Overview
 
--This project focuses on building a Machine Learning model to predict the likelihood of heart disease based on patient health parameters.
+This project focuses on visualizing and analyzing heart disease data to identify important patterns and relationships between various health parameters such as age, cholesterol level, maximum heart rate, and presence of heart disease.
 
--The goal is to use data analysis and predictive modeling techniques to assist in early detection of heart-related risks.
+The objective of this project is to perform Exploratory Data Analysis (EDA) using Python and visualize meaningful insights that can help in understanding risk factors related to heart disease.
 
-#Objectives
+#Technologies Used
 
-1. Perform Exploratory Data Analysis (EDA) on medical data
+-Python
 
-2. Identify key factors influencing heart disease
+-Pandas
 
-3. Build and train a machine learning classification model
+-NumPy
 
-4. Evaluate model performance using standard metrics
+-Matplotlib
+
+-Jupyter Notebook / VS Code
 
 #Dataset Information
 
--The dataset contains medical attributes of patients such as:
+The dataset contains medical attributes such as:
 
-1. Age
+-Age
 
-2. Sex
+-Sex
 
-3. Chest Pain Type
+-Cholesterol Level
 
-4. Resting Blood Pressure
+-Resting Blood Pressure
 
-5. Cholesterol Level
+-Maximum Heart Rate (HR)
 
-6. Fasting Blood Sugar
+-Presence/Absence of Heart Disease
 
-7. Maximum Heart Rate
+#Visualizations Performed
+1️. Heart Disease Presence Distribution
 
-8. Thallium
+Bar chart showing number of patients with and without heart disease.
 
-9. ST Depression
+2.  Age Distribution
 
-10. Heart Disease
+Histogram showing distribution of patients across different age groups.
 
+3️. Age vs Cholesterol
 
-#Tools & Technologies Used
+Scatter plot showing relationship between age and cholesterol level.
 
-1. Python
+4️. Maximum Heart Rate Distribution
 
-2. Pandas (Data manipulation)
-
-3. NumPy (Numerical operations)
-
-4. Matplotlib / Seaborn (Data visualization)
-
-5. Jupyter Notebook
-
-#Exploratory Data Analysis (EDA)
-
-The following analysis was performed:
-
-1. Distribution of target variable
-
-2. Correlation analysis between features
-
-3. Feature relationship with heart disease
-
-4. Data visualization using plots and heatmaps
-
-5. Checking for missing values and outliers
-
-6. EDA helped identify important predictive features such as chest pain type, maximum heart rate, and ST depression.
-
+Histogram representing distribution of maximum heart rate values.
 
 #Key Insights
 
--Chest pain type and maximum heart rate are strong indicators of heart disease.
+-Middle-aged individuals show higher concentration in the dataset.
 
--Certain clinical features show high correlation with the target variable.
+-Cholesterol levels vary significantly across age groups.
 
+-Certain age groups show higher chances of heart disease presence.
 
-#Future Improvements
+-Maximum heart rate distribution highlights variation among patients.
 
--Hyperparameter tuning
+#Learning Outcomes
 
--Cross-validation
+Through this project, I learned:
 
--Deployment using Flask or Streamlit
+-Performing Exploratory Data Analysis (EDA)
 
--Integration with real-time medical systems
+-Data cleaning and preprocessing
+
+-Creating visualizations using Matplotlib & Seaborn
+
+-Interpreting patterns and relationships in healthcare data
+
+-Improving analytical and problem-solving skills
